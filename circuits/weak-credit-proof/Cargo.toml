@@ -1,0 +1,8 @@
+[package]
+name = "weak-credit-halo2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2", tag = "v2024.10.28" }
+pasta_curves = "0.5"
